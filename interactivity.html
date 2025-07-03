@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Interactivity in Tailwind CSS</title>
+    <link href="src/output.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!-- Interactivity : Apply Style on Hover, Focus, Active, Group Hover -->
+    <h1 class="text-4xl">Interactivity</h1>
+    <button class="bg-blue-700 p-2 m-4 text-white rounded-md focus:bg-amber-300">Login</button>
+    <button class="bg-blue-700 p-2 m-4 text-white rounded-md active:bg-red-400">Login</button>
+    <button class="bg-blue-700 p-2 m-4 text-white rounded-md hover:bg-blue-800 hover:p-4 ">Login</button>
+
+    <div>
+        <a class="group">
+            <h1 class="group-hover:text-blue-600 group-hover:bg-black">Heading Click</h1>
+            <p class="group-hover:text-blue-600 group-hover:bg-black">Paragraph</p>
+        </a>
+    </div>
+</body>
+
+</html>
