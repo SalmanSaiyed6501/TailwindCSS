@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Transitions and Transform in Tailwind CSS</title>
+</head>
+<body>
+    <!-- Transition means time and duration / Transform means shapes and sizes -->
+     <div class="container mx-auto mt-20 flex gap-5 justify-center">
+        <button class="bg-blue-500 text-amber-50 px-5 py-1 rounded-[5px] hover:bg-blue-800"><b>Login0</b></button>
+        <button class="bg-blue-500 text-amber-50 px-5 py-1 rounded-[5px] hover:bg-blue-800 transition duration-400"><b>Login1</b></button>
+        <button class="bg-blue-500 text-amber-50 px-5 py-1 rounded-[5px] hover:bg-blue-800 transition duration-400 hover:opacity-5"><b>Login1</b></button>
+        <button class="bg-red-500 text-amber-50 px-5 py-1 rounded-[5px] hover:rotate-180 transition-transform duration-1000"><b>LoginR</b></button>
+        <button class="bg-red-500 text-amber-50 px-5 py-1 rounded-[5px] hover:scale-120 transition-transform duration-1000"><b>LoginS</b></button>
+        <button class="bg-red-500 text-amber-50 px-5 py-1 rounded-[5px] hover:scale-x-120 transition-transform duration-1000"><b>LoginS</b></button>
+        <button class="bg-red-500 text-amber-50 px-5 py-1 rounded-[5px] hover:scale-y-120 transition-transform duration-1000"><b>LoginS</b></button>
+
+        <button class="bg-green-500 text-amber-50 px-5 py-1 rounded-[5px] hover:scale-y-50 hover:scale-x-120 transition-transform duration-800"><b>LoginS</b></button>
+
+        <br>
+
+    </div>
+    <div class="block container mx-auto my-25">
+        <img src="car.jpg" class="mx-auto w-100 hover:rotate-45 hover:scale-50 transition-transform duration-500" alt="">
+    </div>
+</body>
+</html>
