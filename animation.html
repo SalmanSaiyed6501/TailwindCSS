@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Animation with Tailwind CSS</title>
+    <style>
+    @keyframes leftRight {
+        0%, 100% { transform: translateX(0); }
+        50% { transform: translateX(200px); } /* Adjust distance */
+    }
+
+    .custom-horizontal {
+        animation: bounce 1s ease-in-out infinite, leftRight 3s ease-in-out infinite;
+    }
+    </style>
+</head>
+<body>
+    <!-- Spin / Bounce / Ping / Pulse / Animation with Image -->
+    <div class="flex">
+        <div class="size-20 bg-red-500 mt-30 mb-0 ml-30 rounded-full animate-bounce custom-horizontal">
+        </div>
+        <!-- <div class="size-20 bg-red-500 mt-30 mb-0 ml-30 rounded-full animate-ping">
+        </div>
+        <div class="size-20 bg-red-500 mt-30 mb-3 ml-30 rounded-2xl animate-spin">
+        </div>
+        <div class="size-20 bg-red-500 mt-30 mb-3 ml-30 rounded-2xl animate-pulse">
+        </div> -->
+    </div>
+    <hr>
+</body>
+</html>
