@@ -10,6 +10,8 @@
 
     /* --padding-c-5:500px; */
 
-    --height-c:300px;
+    /* --height-c:300px; */
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
 
