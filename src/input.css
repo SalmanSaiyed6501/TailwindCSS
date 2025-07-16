@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@theme{
+/* @theme{ */
     /* --breakpoint-sm : 300px;
     --breakpoint-md : 500px;
     --breakpoint-lg : 800px;
@@ -11,7 +11,22 @@
     /* --padding-c-5:500px; */
 
     /* --height-c:300px; */
-}
+/* } */
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@layer base{
+    h1{
+        font-size: 100px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
