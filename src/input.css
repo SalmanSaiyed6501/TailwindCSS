@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
 @import "tailwindcss";
 /* @theme{ */
     /* --breakpoint-sm : 300px;
@@ -53,4 +54,12 @@
     .btn-dark{
         @apply bg-slate-800 px-5 py-1.5 border-b-gray-400 rounded text-white;
     }
+
+    .custom-image{
+        @apply w-80 rounded border border-2 border-blue-200 hover:scale-110 transition duration-800 hover:brightness-110 hover:border-gray-500;
+    }
+}
+
+@theme{
+    --font-embrade: "Manufacturing Consent", system-ui;
 }
