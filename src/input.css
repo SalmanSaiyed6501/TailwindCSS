@@ -19,7 +19,7 @@
 @tailwind components;
 @tailwind utilities; */
 
-@layer base{
+/* @layer base{
     h1{
         font-size: 100px;
     }
@@ -28,5 +28,29 @@
     }
     h3{
         font-size: 30px;
+    }
+} */
+
+@layer components{
+    .btn-primary{
+        @apply bg-blue-500 px-5 py-1.5 border-b-gray-400 text-white rounded;
+    }
+    .btn-secondary{
+        @apply bg-slate-500 px-5 py-1.5 border-b-gray-400 text-white rounded;
+    }
+    .btn-success{
+        @apply bg-green-700 px-5 py-1.5 border-b-gray-400 text-white rounded;
+    }
+    .btn-danger{
+        @apply bg-red-700 px-5 py-1.5 border-b-gray-400 text-white rounded;
+    }
+    .btn-warning{
+        @apply bg-yellow-500 px-5 py-1.5 border-b-gray-400 rounded;
+    }
+    .btn-info{
+        @apply bg-cyan-500 px-5 py-1.5 border-b-gray-400 rounded;
+    }
+    .btn-dark{
+        @apply bg-slate-800 px-5 py-1.5 border-b-gray-400 rounded text-white;
     }
 }
