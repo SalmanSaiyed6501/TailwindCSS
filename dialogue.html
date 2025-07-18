@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Dialogue Box in Tailwind CSS</title>
+</head>
+<body>
+    <div class="bg-gray-500 fixed inset-0">
+       <div class="fixed inset-0">
+            <div class="flex h-full justify-center items-center">
+                <div class="bg-white w-[512px] rounded relative shadow-2xl">
+                    <div class="p-5">
+                        <div class="flex items-center">
+                            <img class="size-8" src="https://static.vecteezy.com/system/resources/previews/023/904/064/non_2x/red-warning-icon-illustration-isolated-on-a-white-background-hazard-warning-circle-sign-with-exclamation-mark-attention-sign-vector.jpg">
+                            <div class="ml-5">
+                                <h3 class="font-bold text-2xl">Diactivate Account ?</h3>
+                                <p class="text-gray-500">Are you want to Diactivate your account ? All Your data will be permanently removed. This will not be undone..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-end py-2 bg-gray-200 px-4">
+                        <button class="px-4 py-1 border-1 border-gray-400 rounded cursor-pointer hover:bg-gray-300">Cancel</button>
+                        <button class="px-4 py-1 bg-red-700 text-amber-50 rounded cursor-pointer hover:bg-red-600">Diactivate</button>
+                    </div>
+                </div>
+            </div>
+       </div> 
+    </div>
+</body>
+</html>
